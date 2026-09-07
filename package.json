@@ -6,13 +6,15 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --open",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.2.10"
+    "@fontsource-variable/fredoka": "^5.3.0",
+    "astro": "^7.2.10",
+    "destyle.css": "^4.0.1"
   },
   "allowScripts": {
     "esbuild": true
